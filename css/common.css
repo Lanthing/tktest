@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+.clearfix {
+  display: block;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+body {
+  min-width: 1440px;
+}
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
